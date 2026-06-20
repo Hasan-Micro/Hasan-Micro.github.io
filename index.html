@@ -275,6 +275,31 @@
       margin-bottom: 1.1rem;
     }
 
+
+
+    .project-figure {
+      margin: 1rem 0 1.1rem;
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      overflow: hidden;
+      background: var(--surface);
+    }
+
+    .project-figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .project-figure figcaption {
+      padding: 0.65rem 0.8rem;
+      font-size: 0.72rem;
+      color: var(--muted);
+      line-height: 1.55;
+      background: white;
+      border-top: 1px solid var(--border);
+    }
+
     .project-methods {
       display: flex;
       flex-wrap: wrap;
@@ -503,6 +528,12 @@
           intracellular c-di-GMP levels — connecting membrane biogenesis to
           second messenger-dependent virulence circuits for the first time in this pathogen.
         </p>
+        <figure class="project-figure">
+          <img src="assets/images/clinker.svg" alt="Comparative synteny of the KhpB–YidC/OxaA1 locus across selected Firmicutes">
+          <figcaption>
+            Comparative synteny of the KhpB–YidC/OxaA1 membrane-biogenesis locus across selected Firmicutes and related bacteria.
+          </figcaption>
+        </figure>
         <div class="project-methods">
           <span class="method-pill">CRISPRi</span>
           <span class="method-pill">c-di-GMP assay</span>
